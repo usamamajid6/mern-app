@@ -1,3 +1,4 @@
+cd ..
 # Technical Test : Smiling Agency
 
 We want to get a sense of your backend and frontend experience. Both parts must be completed to be considered for the position.

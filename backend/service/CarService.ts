@@ -21,6 +21,7 @@ export const getAllBasedOnFilters = async (req: Request): Promise<CarInterface[]
 };
 
 export const saveCar = async (data: CarInterface): Promise<CarInterface> => {
+
   let car = new carSchema(data);
   try {
     return await car.save();

@@ -22,6 +22,7 @@ app.get("/car/filter", async (req: Request, res: Response) => {
 });
 
 app.post("/car", async (req: Request, res: Response) => {
+  
   try {
     const result = await saveCar(req.body);
     res.json(result);

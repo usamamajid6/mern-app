@@ -1,9 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { combineReducers } from "redux";
-import posts from "./FetchPosts";
+import saveCar from "./Car/Save";
+import searchCar from "./Car/Serach";
 
 const reducer = combineReducers({
-  posts,
+  saveCar,
+  searchCar
+  
 });
 const store = configureStore({
   reducer,
